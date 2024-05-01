@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Aproximación de Stirling para factoriales grandes</title>
+<link rel="stylesheet" href="css.css">
+</head>
+<body>
+<div class="container">
+    <h1>Aproximación de Stirling para factoriales grandes</h1>
+    <p>La aproximación de Stirling es una fórmula que estima el valor de factoriales grandes de forma más eficiente que el cálculo directo. Se basa en la fórmula:</p>
+    <p class="formula">n! ≈ √(2πn) * (n/e)^n</p>
+    <label for="numero">Ingresa un número:</label>
+    <input type="number" id="numero">
+    <button onclick="calcularFactorial()">Calcular</button>
+    <p id="resultado"></p>
+</div>
+<script src="JS.js"></script>
+</body>
+</html>
